@@ -1,0 +1,38 @@
+5. INHERITANCE CONCEPT:
+
+
+
+
+import java.util.*;
+import java.io.*;
+class A
+{
+  void message()
+  {
+    System.out.println("WE HAVE CREATED CLASS A");
+  }
+}
+ 
+class B extends A
+{
+  void display()
+   {
+     System.out.println("WE HAVE CREATED CLASS B AND EXTENDS CLASS A");
+   }
+}
+public class C extends B
+{
+  void result()
+   {
+     System.out.println("WE HAVE CREATED CLASS C AND EXTENDS CLASS B WHICH ALSO INHERITS THE PROPERTIES OF CLASS A");
+   }
+}
+
+public Static void main(String args[])
+   {
+      C cat=new C();
+      cat.message();
+      cat.display();
+      cat.result();
+   }
+}

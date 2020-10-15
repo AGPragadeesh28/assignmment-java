@@ -1,0 +1,27 @@
+2.TO PRINT THE MIDDLE CHARACTER IN A STRING:
+
+
+
+import java.util.*;
+import java.io.*;
+class Main
+{
+  public Static void main(String args[])
+  {
+    String str;
+    Scanner scanner=new Scanner(System.in);
+    str=scanner.nextline();
+    str1=str.length();
+    if(str1 %  2 == 0)
+    {
+       Char ch=str.CharAt((str1/2)-1);
+       Char ch1=str.CharAt(str1/2);
+       System.out.println("The middle character in the string is:"+ch+" " + ch1);
+    }
+    else
+    {
+     Char ch2=str.CharAt(str1/2);
+     System.out.println("The middle character in the string is:"+ch2);
+    }
+  }
+}

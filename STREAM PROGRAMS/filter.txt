@@ -1,0 +1,25 @@
+Write a program to print the names using intermediate operation.
+
+
+import java.util.*;
+
+class TestJavaCollection1{  
+
+public static void main(String args[])
+
+    {
+  
+      ArrayList<String> list=new ArrayList<String>();                      //Creation of arraylist  
+
+      list.add("mohan");
+
+      list.add("praga");
+  
+      list.add("aravind");
+  
+      list.add("deva");  
+
+     list .stream().filter(s -> s.startsWith("d")) .sorted().forEach(System.out::println)       //we have used filter() and sorted() as intermediate 
+  
+    } 
+}

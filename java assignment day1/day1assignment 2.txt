@@ -1,0 +1,58 @@
+2. TO PRINT ADD,SUB,MUL,DIV AND REMAINDER OF TWO NUMBERS:
+
+import java.io.*;
+import java.util.*;
+class Operations
+{
+   void display()
+   {
+     int num1,num2;
+     Scanner scanner=new Scanner(System.in);
+     num1=scanner.nextInt();
+     num2=scanner.nextInt();
+   }
+   void add()
+   {
+     int sum=num1+num2;
+     System.out.println(the addition is:"+ sum);
+   }
+
+   void sub()
+   {
+     int subtraction=num1 - num2;
+     System.out.println(the subtration is:"+ subtraction);
+   }
+
+  void mul()
+   {
+     int multiplication=num1*num2;
+     System.out.println(the multiplication is:"+ multiplication);
+   }
+  
+  void div()
+   {
+     int division=num1/num2;
+     System.out.println(the division is:"+ division);
+   }
+
+  void remainder()
+  {
+    int remain=num1 % num2;
+    System.out.println("the remainder is:"+ remain);
+  }
+}
+
+
+class Main
+{
+    public Static void main(String args[])
+    {
+      Operations operation=new Operations();
+      operation.display();
+      operation.add();
+      operation.sub();
+      operation.mul();
+      operation.div();
+      operation.remainder();
+     }
+}

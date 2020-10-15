@@ -1,0 +1,32 @@
+4. TO SWAP THE 2 VARIABLES:
+
+import java.util.*;
+import java.io.*;
+class Swapping
+{
+  void display()
+   {
+      int swap1;
+      int swap2;
+      int temp;
+      System.out.println("Enter the values:");
+      Scanner scanner=new Scanner(System.in);
+      swap1=scanner.nextInt();
+      swap2=scanner.nextInt();
+      temp=swap1;
+      swap1=swap2;
+      swap2=temp;
+      System.out.println("The swapped variables are:"+ swap1+" "+swap2);
+   }
+}
+
+
+class Main
+{
+  public Static void main(String args[])
+  {
+    Swapping swap=new Swapping();
+    swap.display();
+  }
+}
+      

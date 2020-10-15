@@ -1,0 +1,29 @@
+4.TO SERACH THE ELEMENT IN AN ARRAY:
+
+
+
+import java.io.*;
+import java,util.*;
+class Search
+{
+  public Static void main(String args[])
+  {
+    int num;
+    Scanner scanner=new Scanner(System.in);
+    num=scanner.nextInt();
+    int array[]=new int[num];
+    for(int i=0;i<=n;i++)
+    {
+      array[i]=scanner.nextInt();
+    }
+    int find;
+    find=Scanner.nextInt();
+    for(int i=0;i<=n;i++)
+    {
+       if(array[i] == find)
+       {
+          System.out.println("The searched number"+ find +"found in position"+ i);
+       }
+    }
+   }
+}

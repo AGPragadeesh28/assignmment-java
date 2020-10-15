@@ -1,0 +1,27 @@
+1.CONVERT ALL STRING TO LOWER CASE{
+
+
+
+import java.util.*;
+import java.io.*;
+class Lowercase
+{
+    void display()
+    {
+     String str1;
+     Scanner scanner = new Scanner(System.in);
+     str1=scanner.nextLine();
+     String str2=str1.tolowercase();
+     System.out.println("the string is:"+ str2);
+    }
+
+}
+
+class Main
+{
+  public Static void main(String args[])
+  {
+    Lowercase lower=new Lowercase();
+    lower.display();
+  }
+}

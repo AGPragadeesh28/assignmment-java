@@ -1,0 +1,24 @@
+6.TO FIND THE STRING IS PALINDROME OR NOT:
+
+
+import java util.*;
+import java.io.*;
+import java.lang.*;
+class Palindrome
+{
+   public Static void main(String args[])
+   {
+     String str = "hello";
+     StringBuffer stringbuffer=new StringBuffer(str);
+     stringbuffer.reverse();
+     String str2=stringbuffer.tostring();
+     if(str.equals(str2))
+     {
+       System.out.print("The given string is palindrome");
+     }
+     else
+     {
+        System.out.print("The given string is not a palindrome");
+     }
+   }
+}

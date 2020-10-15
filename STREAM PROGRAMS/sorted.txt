@@ -1,0 +1,29 @@
+Write a program to print the numbers using intermediate operation.
+
+
+import java.util.*;
+
+import java.util.list;
+
+import java.util.stream;
+
+class TestJavaCollection1{  
+
+public static void main(String args[])
+
+    {
+  
+      ArrayList<String> list=new ArrayList<String>();                      //Creation of arraylist  
+
+      list.add(1);
+
+      list.add(3);
+  
+      list.add(8);
+  
+      list.add(5);  
+
+     list .stream().sorted().forEach(System.out::println)                 //we have used sorted() as intermediate 
+  
+    } 
+}

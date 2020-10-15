@@ -1,0 +1,23 @@
+import java.util.*;
+
+import java.io.*;
+
+public class PrintAsciiValue  
+{  
+
+   public static void main(String[] args)   {
+    
+        char ch1 = 'a'; 
+ 
+        char ch2 = 'b';  
+
+        int ascii1 = (int) ch1;         // WE HAVE DONE THE TYPECASTING HERE
+  
+        int ascii2 = (int) ch2;  
+
+        System.out.println("The ASCII value of " + ch1 + " is: " + ascii1); 
+ 
+        System.out.println("The ASCII value of " + ch1 + " is: " + ascii2);  
+   }
+  
+}  

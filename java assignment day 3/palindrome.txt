@@ -1,0 +1,32 @@
+5. TO CHECK WHETHER THE GIVEN NUMBER IS PALINDROME OR NOT
+
+
+import java.util.*;
+import java.io.*;
+class Palindrome
+{
+   public Static void main(String args[])
+   {
+     int number,temp,remainder,reverse=0;
+     System.out.print("Enter the number:");
+     Scanner scanner=new Scanenr(System.in);
+     number= scanner.nextInt();
+     temp=number;
+     while(number!=0)
+     {
+       remainder=number%10;
+       reverse=reverse * 10 + remainder;
+       number/=10;
+     }
+ 
+     if( temp== reverse)
+     {
+       System.out.println(temp+" is a palindrome number");
+     }
+
+     else
+     {
+       System.out.println(temp+ "is not a palindrome number");
+     }
+  }
+}
